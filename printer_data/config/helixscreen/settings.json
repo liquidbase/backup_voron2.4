@@ -70,6 +70,14 @@
         "temp_bucket": 2,
         "timestamp": 1777914110,
         "total": 936
+      },
+      {
+        "phases": {
+          "7": 654
+        },
+        "temp_bucket": 2,
+        "timestamp": 1778001058,
+        "total": 750
       }
     ]
   },
@@ -201,7 +209,7 @@
             "temperature_sensor SoC",
             "temperature_sensor chamber"
           ],
-          "timestamp": "2026-05-05T16:57:40Z"
+          "timestamp": "2026-05-06T05:20:37Z"
         },
         "optional": []
       },
@@ -569,10 +577,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 4.613567352294922
+        "heat_rate": 4.562731742858887
       },
       "heater_bed": {
-        "heat_rate": 4.7306294441223145
+        "heat_rate": 3.4626028537750244
       }
     }
   },
