@@ -1,6 +1,6 @@
 {
   "active_printer_id": "default",
-  "config_version": 16,
+  "config_version": 19,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -8,6 +8,7 @@
     "dim_sec": 600,
     "drm_device": "",
     "gcode_render_mode": 0,
+    "gpu_3d_blocked": false,
     "sleep_sec": 1200
   },
   "gcode_viewer": {
@@ -22,6 +23,7 @@
       "d": 0.0,
       "e": 1.0,
       "f": 0.0,
+      "recheck_pending": false,
       "valid": false
     },
     "jitter_threshold": 5,
@@ -31,6 +33,9 @@
   },
   "language": "en",
   "led": {
+    "auto_state": {
+      "enabled": null
+    },
     "selected_strips": null
   },
   "log_path": "/tmp/helixscreen.log",
@@ -39,30 +44,6 @@
   },
   "print_start_history": {
     "entries": [
-      {
-        "phases": {
-          "7": 463
-        },
-        "temp_bucket": 1,
-        "timestamp": 1777389127,
-        "total": 573
-      },
-      {
-        "phases": {
-          "7": 446
-        },
-        "temp_bucket": 1,
-        "timestamp": 1777448751,
-        "total": 555
-      },
-      {
-        "phases": {
-          "7": 593
-        },
-        "temp_bucket": 1,
-        "timestamp": 1778046401,
-        "total": 974
-      },
       {
         "phases": {
           "7": 768
@@ -110,6 +91,46 @@
         "temp_bucket": 2,
         "timestamp": 1778125988,
         "total": 654
+      },
+      {
+        "phases": {
+          "7": 463
+        },
+        "temp_bucket": 1,
+        "timestamp": 1777389127,
+        "total": 573
+      },
+      {
+        "phases": {
+          "7": 446
+        },
+        "temp_bucket": 1,
+        "timestamp": 1777448751,
+        "total": 555
+      },
+      {
+        "phases": {
+          "7": 593
+        },
+        "temp_bucket": 1,
+        "timestamp": 1778046401,
+        "total": 974
+      },
+      {
+        "phases": {
+          "7": 559
+        },
+        "temp_bucket": 1,
+        "timestamp": 1778226928,
+        "total": 974
+      },
+      {
+        "phases": {
+          "7": 364
+        },
+        "temp_bucket": 1,
+        "timestamp": 1778335899,
+        "total": 762
       }
     ]
   },
@@ -241,7 +262,7 @@
             "temperature_sensor SoC",
             "temperature_sensor chamber"
           ],
-          "timestamp": "2026-05-07T13:21:43Z"
+          "timestamp": "2026-07-14T09:08:21Z"
         },
         "optional": []
       },
@@ -253,19 +274,14 @@
         "auto_state": {
           "enabled": true,
           "mappings": {
-            "error": {
-              "action": "brightness",
-              "brightness": 35,
-              "color": "#FFFFFF"
-            },
             "heating": {
               "action": "brightness",
               "brightness": 50,
               "color": "#FFFFFF"
             },
-            "paused": {
-              "action": "brightness",
-              "brightness": 20,
+            "idle": {
+              "action": "off",
+              "brightness": 10,
               "color": "#FFFFFF"
             },
             "printing": {
@@ -275,22 +291,27 @@
             }
           }
         },
-        "color_presets": null,
-        "last_brightness": null,
-        "last_color": null,
-        "last_white": null,
-        "led_on_at_start": null,
-        "macro_devices": {
-          "name": "Chamber Light",
-          "off_macro": "Turn_Lights_Off",
-          "on_macro": "Turn_Lights_On",
-          "presets": [],
-          "toggle_macro": "",
-          "type": "on_off"
-        },
+        "color_presets": [
+          "#FFFFFF",
+          "#FFD700",
+          "#FF6B35",
+          "#4FC3F7",
+          "#FF4444",
+          "#66BB6A",
+          "#9C27B0",
+          "#00BCD4"
+        ],
+        "last_brightness": 25,
+        "last_color": "#FFFFFF",
+        "last_white": 0.0,
+        "led_on_at_start": true,
+        "macro_devices": [],
         "selected": [],
-        "selected_strips": [],
-        "startup_brightness": null,
+        "selected_strips": [
+          "output_pin caselight_left",
+          "output_pin caselight_right"
+        ],
+        "startup_brightness": 25,
         "strip": ""
       },
       "moonraker_api_key": false,
@@ -609,10 +630,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 3.7997584342956543
+        "heat_rate": 2.688854694366455
       },
       "heater_bed": {
-        "heat_rate": 4.320828437805176
+        "heat_rate": 7.664257526397705
       }
     }
   },
