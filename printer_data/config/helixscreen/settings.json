@@ -1,6 +1,6 @@
 {
   "active_printer_id": "default",
-  "config_version": 21,
+  "config_version": 23,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -257,7 +257,7 @@
             "temperature_sensor SoC",
             "temperature_sensor chamber"
           ],
-          "timestamp": "2026-08-06T16:24:55Z"
+          "timestamp": "2026-09-19T17:23:10Z"
         },
         "optional": []
       },
@@ -266,6 +266,9 @@
         "hotend": "extruder"
       },
       "leds": {
+        "auto_paired_bases": [
+          "TURN_LIGHTS"
+        ],
         "auto_state": {
           "enabled": true,
           "mappings": {
@@ -300,7 +303,16 @@
         "last_color": "#FFFFFF",
         "last_white": 0.0,
         "led_on_at_start": true,
-        "macro_devices": [],
+        "macro_devices": [
+          {
+            "name": "Turn Lights",
+            "off_macro": "TURN_LIGHTS_OFF",
+            "on_macro": "TURN_LIGHTS_ON",
+            "presets": [],
+            "toggle_macro": "",
+            "type": "on_off"
+          }
+        ],
         "selected": [],
         "selected_strips": [
           "output_pin caselight_left",
