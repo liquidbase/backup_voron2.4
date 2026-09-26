@@ -41,6 +41,56 @@
     "entries": [
       {
         "phases": {
+          "7": 463
+        },
+        "temp_bucket": 1,
+        "timestamp": 1777389127,
+        "total": 573
+      },
+      {
+        "phases": {
+          "7": 446
+        },
+        "temp_bucket": 1,
+        "timestamp": 1777448751,
+        "total": 555
+      },
+      {
+        "phases": {
+          "7": 593
+        },
+        "temp_bucket": 1,
+        "timestamp": 1778046401,
+        "total": 974
+      },
+      {
+        "phases": {
+          "7": 559
+        },
+        "temp_bucket": 1,
+        "timestamp": 1778226928,
+        "total": 974
+      },
+      {
+        "phases": {
+          "7": 364
+        },
+        "temp_bucket": 1,
+        "timestamp": 1778335899,
+        "total": 762
+      },
+      {
+        "phases": {
+          "2": 64,
+          "5": 277
+        },
+        "temp_bucket": 1,
+        "timestamp": 1790264852,
+        "total": 398,
+        "window": 1
+      },
+      {
+        "phases": {
           "7": 768
         },
         "temp_bucket": 2,
@@ -89,43 +139,13 @@
       },
       {
         "phases": {
-          "7": 463
+          "2": 54,
+          "5": 246
         },
-        "temp_bucket": 1,
-        "timestamp": 1777389127,
-        "total": 573
-      },
-      {
-        "phases": {
-          "7": 446
-        },
-        "temp_bucket": 1,
-        "timestamp": 1777448751,
-        "total": 555
-      },
-      {
-        "phases": {
-          "7": 593
-        },
-        "temp_bucket": 1,
-        "timestamp": 1778046401,
-        "total": 974
-      },
-      {
-        "phases": {
-          "7": 559
-        },
-        "temp_bucket": 1,
-        "timestamp": 1778226928,
-        "total": 974
-      },
-      {
-        "phases": {
-          "7": 364
-        },
-        "temp_bucket": 1,
-        "timestamp": 1778335899,
-        "total": 762
+        "temp_bucket": 2,
+        "timestamp": 1790275057,
+        "total": 326,
+        "window": 1
       }
     ]
   },
@@ -257,7 +277,7 @@
             "temperature_sensor SoC",
             "temperature_sensor chamber"
           ],
-          "timestamp": "2026-09-24T15:01:58Z"
+          "timestamp": "2026-09-26T18:20:41Z"
         },
         "optional": []
       },
@@ -638,7 +658,7 @@
         "heat_rate": 2.688854694366455
       },
       "heater_bed": {
-        "heat_rate": 7.664257526397705
+        "heat_rate": 3.7434420585632324
       }
     }
   },
