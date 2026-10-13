@@ -41,19 +41,77 @@
     "entries": [
       {
         "phases": {
-          "7": 768
+          "7": 593
         },
-        "temp_bucket": 2,
-        "timestamp": 1777902470,
-        "total": 852
+        "temp_bucket": 1,
+        "timestamp": 1778046401,
+        "total": 974
       },
       {
         "phases": {
-          "7": 755
+          "7": 559
         },
-        "temp_bucket": 2,
-        "timestamp": 1777914110,
-        "total": 936
+        "temp_bucket": 1,
+        "timestamp": 1778226928,
+        "total": 974
+      },
+      {
+        "phases": {
+          "7": 364
+        },
+        "temp_bucket": 1,
+        "timestamp": 1778335899,
+        "total": 762
+      },
+      {
+        "phases": {
+          "2": 64,
+          "5": 277
+        },
+        "temp_bucket": 1,
+        "timestamp": 1790264852,
+        "total": 398,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 64,
+          "5": 254
+        },
+        "temp_bucket": 1,
+        "timestamp": 1790450773,
+        "total": 673,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 60,
+          "5": 303
+        },
+        "temp_bucket": 1,
+        "timestamp": 1790496481,
+        "total": 739,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 54,
+          "5": 455
+        },
+        "temp_bucket": 1,
+        "timestamp": 1791735577,
+        "total": 902,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 54,
+          "5": 536
+        },
+        "temp_bucket": 1,
+        "timestamp": 1791779400,
+        "total": 974,
+        "window": 1
       },
       {
         "phases": {
@@ -99,62 +157,22 @@
       },
       {
         "phases": {
-          "7": 463
+          "2": 53,
+          "5": 527
         },
-        "temp_bucket": 1,
-        "timestamp": 1777389127,
-        "total": 573
-      },
-      {
-        "phases": {
-          "7": 446
-        },
-        "temp_bucket": 1,
-        "timestamp": 1777448751,
-        "total": 555
-      },
-      {
-        "phases": {
-          "7": 593
-        },
-        "temp_bucket": 1,
-        "timestamp": 1778046401,
-        "total": 974
-      },
-      {
-        "phases": {
-          "7": 559
-        },
-        "temp_bucket": 1,
-        "timestamp": 1778226928,
-        "total": 974
-      },
-      {
-        "phases": {
-          "7": 364
-        },
-        "temp_bucket": 1,
-        "timestamp": 1778335899,
-        "total": 762
-      },
-      {
-        "phases": {
-          "2": 64,
-          "5": 277
-        },
-        "temp_bucket": 1,
-        "timestamp": 1790264852,
-        "total": 398,
+        "temp_bucket": 2,
+        "timestamp": 1791818813,
+        "total": 785,
         "window": 1
       },
       {
         "phases": {
-          "2": 64,
-          "5": 254
+          "2": 49,
+          "5": 587
         },
-        "temp_bucket": 1,
-        "timestamp": 1790450773,
-        "total": 673,
+        "temp_bucket": 2,
+        "timestamp": 1791844830,
+        "total": 786,
         "window": 1
       }
     ]
@@ -287,7 +305,7 @@
             "temperature_sensor SoC",
             "temperature_sensor chamber"
           ],
-          "timestamp": "2026-09-27T07:54:31Z"
+          "timestamp": "2026-10-13T15:20:20Z"
         },
         "optional": []
       },
@@ -668,7 +686,7 @@
         "heat_rate": 2.688854694366455
       },
       "heater_bed": {
-        "heat_rate": 3.968775749206543
+        "heat_rate": 3.354930877685547
       }
     }
   },
@@ -684,7 +702,7 @@
     }
   },
   "update": {
-    "dismissed_version": "0.99.117"
+    "dismissed_version": "1.0.4"
   },
   "wifi_expected": false,
   "wizard_completed": true
