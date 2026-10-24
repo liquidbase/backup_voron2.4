@@ -41,66 +41,6 @@
     "entries": [
       {
         "phases": {
-          "2": 53,
-          "5": 527
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791818813,
-        "total": 785,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 49,
-          "5": 587
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791844830,
-        "total": 786,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 60,
-          "5": 311
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791998860,
-        "total": 436,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 51,
-          "5": 453
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792084636,
-        "total": 645,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 43,
-          "5": 274
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792312547,
-        "total": 339,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 54,
-          "5": 536
-        },
-        "temp_bucket": 1,
-        "timestamp": 1791779400,
-        "total": 974,
-        "window": 1
-      },
-      {
-        "phases": {
           "2": 52,
           "5": 634
         },
@@ -187,6 +127,66 @@
         "temp_bucket": 1,
         "timestamp": 1792857275,
         "total": 422,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 53,
+          "5": 527
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791818813,
+        "total": 785,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 49,
+          "5": 587
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791844830,
+        "total": 786,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 60,
+          "5": 311
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791998860,
+        "total": 436,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 51,
+          "5": 453
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792084636,
+        "total": 645,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 43,
+          "5": 274
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792312547,
+        "total": 339,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 61,
+          "5": 356
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792866721,
+        "total": 441,
         "window": 1
       }
     ]
