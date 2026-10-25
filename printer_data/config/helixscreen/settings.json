@@ -41,16 +41,6 @@
     "entries": [
       {
         "phases": {
-          "2": 52,
-          "5": 634
-        },
-        "temp_bucket": 1,
-        "timestamp": 1791906003,
-        "total": 1067,
-        "window": 1
-      },
-      {
-        "phases": {
           "2": 60,
           "5": 649
         },
@@ -188,6 +178,16 @@
         "timestamp": 1792866721,
         "total": 441,
         "window": 1
+      },
+      {
+        "phases": {
+          "2": 58,
+          "5": 367
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792871172,
+        "total": 449,
+        "window": 1
       }
     ]
   },
@@ -319,7 +319,7 @@
             "temperature_sensor SoC",
             "temperature_sensor chamber"
           ],
-          "timestamp": "2026-10-24T19:36:10Z"
+          "timestamp": "2026-10-25T07:12:53Z"
         },
         "optional": []
       },
@@ -700,7 +700,7 @@
         "heat_rate": 2.688854694366455
       },
       "heater_bed": {
-        "heat_rate": 2.4247376918792725
+        "heat_rate": 2.509455919265747
       }
     }
   },
