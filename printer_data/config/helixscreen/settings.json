@@ -98,16 +98,6 @@
       {
         "phases": {
           "HOMING": 63,
-          "QGL": 328
-        },
-        "temp_bucket": 1,
-        "timestamp": 1792848135,
-        "total": 448,
-        "window": 1
-      },
-      {
-        "phases": {
-          "HOMING": 63,
           "QGL": 308
         },
         "temp_bucket": 1,
@@ -194,13 +184,26 @@
         "timestamp": 1794911076,
         "total": 761,
         "window": 1
+      },
+      {
+        "heating": 675,
+        "phases": {
+          "BED_MESH": 50,
+          "HOMING": 12,
+          "QGL": 183
+        },
+        "temp_bucket": 1,
+        "timestamp": 1795771472,
+        "total": 656,
+        "window": 1
       }
     ]
   },
   "printers": {
     "default": {
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Christmas Snoopy 3MF (For Bambu Printers)_PLA_9h25m.gcode\",\"job_id\":\"00023F\",\"object_height\":104.4,\"start_time\":1794910315.3234985}"
+        "last_occupied": "{\"filename\":\"BS+V4+twisted+wand+new+1.15_PA-CF_1h8m.gcode\",\"job_id\":\"000240\",\"object_height\":132.8,\"start_time\":1795770816.811165}",
+        "outlines": "{\"filename\":\"BS+V4+twisted+wand+new+1.15_PA-CF_1h8m.gcode\",\"objects\":[[[164.9,174.9],[166.5,169.7],[167.4,168.6],[168.5,167.5],[171.9,165.3],[177.4,165.2],[178.7,165.7],[180.1,166.4],[183.2,169.0],[185.0,174.1],[185.1,174.9],[184.6,177.4],[183.2,180.9],[178.9,184.2],[177.2,184.6],[175.4,184.8],[171.9,184.5],[167.4,181.4],[166.6,180.3],[166.0,178.9],[164.9,174.9]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -404,20 +407,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 0.0
+            "used_h": 0.5449999999999912
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 0.0
+            "used_h": 0.5449999999999912
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 0.0
+            "used_h": 0.5449999999999912
           }
         },
-        "total_h": 0.0
+        "total_h": 0.5449999999999912
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -534,10 +537,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 2.688854694366455
+        "heat_rate": 0.940244197845459
       },
       "heater_bed": {
-        "heat_rate": 1.8543601036071777
+        "heat_rate": 3.339552879333496
       }
     }
   },
