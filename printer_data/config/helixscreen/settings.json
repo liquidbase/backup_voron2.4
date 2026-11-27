@@ -1,6 +1,6 @@
 {
   "active_printer_id": "default",
-  "config_version": 23,
+  "config_version": 35,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -10,7 +10,7 @@
     "gcode_render_mode": 0,
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
-    "sleep_sec": 1200
+    "sleep_sec": 3600
   },
   "gcode_viewer": {
     "shading_model": "phong",
@@ -41,8 +41,8 @@
     "entries": [
       {
         "phases": {
-          "2": 43,
-          "5": 274
+          "HOMING": 43,
+          "QGL": 274
         },
         "temp_bucket": 2,
         "timestamp": 1792312547,
@@ -51,8 +51,8 @@
       },
       {
         "phases": {
-          "2": 61,
-          "5": 356
+          "HOMING": 61,
+          "QGL": 356
         },
         "temp_bucket": 2,
         "timestamp": 1792866721,
@@ -61,8 +61,8 @@
       },
       {
         "phases": {
-          "2": 58,
-          "5": 367
+          "HOMING": 58,
+          "QGL": 367
         },
         "temp_bucket": 2,
         "timestamp": 1792871172,
@@ -71,8 +71,8 @@
       },
       {
         "phases": {
-          "2": 62,
-          "5": 403
+          "HOMING": 62,
+          "QGL": 403
         },
         "temp_bucket": 2,
         "timestamp": 1793492873,
@@ -81,8 +81,8 @@
       },
       {
         "phases": {
-          "2": 90,
-          "5": 213
+          "HOMING": 90,
+          "QGL": 213
         },
         "temp_bucket": 2,
         "timestamp": 1794877752,
@@ -91,8 +91,8 @@
       },
       {
         "phases": {
-          "2": 63,
-          "5": 328
+          "HOMING": 63,
+          "QGL": 328
         },
         "temp_bucket": 1,
         "timestamp": 1792848135,
@@ -101,8 +101,8 @@
       },
       {
         "phases": {
-          "2": 63,
-          "5": 308
+          "HOMING": 63,
+          "QGL": 308
         },
         "temp_bucket": 1,
         "timestamp": 1792857275,
@@ -111,8 +111,8 @@
       },
       {
         "phases": {
-          "2": 72,
-          "5": 219
+          "HOMING": 72,
+          "QGL": 219
         },
         "temp_bucket": 1,
         "timestamp": 1792912993,
@@ -121,8 +121,8 @@
       },
       {
         "phases": {
-          "2": 55,
-          "5": 232
+          "HOMING": 55,
+          "QGL": 232
         },
         "temp_bucket": 1,
         "timestamp": 1792945180,
@@ -131,8 +131,8 @@
       },
       {
         "phases": {
-          "2": 60,
-          "5": 266
+          "HOMING": 60,
+          "QGL": 266
         },
         "temp_bucket": 1,
         "timestamp": 1793357664,
@@ -141,8 +141,8 @@
       },
       {
         "phases": {
-          "2": 54,
-          "5": 356
+          "HOMING": 54,
+          "QGL": 356
         },
         "temp_bucket": 1,
         "timestamp": 1793440707,
@@ -151,8 +151,8 @@
       },
       {
         "phases": {
-          "2": 40,
-          "5": 562
+          "HOMING": 40,
+          "QGL": 562
         },
         "temp_bucket": 1,
         "timestamp": 1793522925,
@@ -161,8 +161,8 @@
       },
       {
         "phases": {
-          "2": 54,
-          "5": 357
+          "HOMING": 54,
+          "QGL": 357
         },
         "temp_bucket": 1,
         "timestamp": 1793547487,
@@ -171,8 +171,8 @@
       },
       {
         "phases": {
-          "2": 79,
-          "5": 429
+          "HOMING": 79,
+          "QGL": 429
         },
         "temp_bucket": 1,
         "timestamp": 1794857678,
@@ -181,8 +181,8 @@
       },
       {
         "phases": {
-          "2": 39,
-          "5": 680
+          "HOMING": 39,
+          "QGL": 680
         },
         "temp_bucket": 1,
         "timestamp": 1794911076,
@@ -388,6 +388,8 @@
       "moonraker_port": 7125,
       "panel_widgets": {
         "home": {
+          "layout_units": "cells_v21",
+          "legacy_rows": 4,
           "main_page_index": 0,
           "next_page_id": 1,
           "pages": [
@@ -429,7 +431,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "shutdown",
                   "row": -1,
                   "rowspan": 1
@@ -437,7 +438,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "lock",
                   "row": -1,
                   "rowspan": 1
@@ -445,7 +445,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "power_device",
                   "row": -1,
                   "rowspan": 1
@@ -453,7 +452,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "network",
                   "row": -1,
                   "rowspan": 1
@@ -461,7 +459,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "firmware_restart",
                   "row": -1,
                   "rowspan": 1
@@ -477,7 +474,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "tool_switcher",
                   "row": -1,
                   "rowspan": 1
@@ -493,7 +489,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "led_controls",
                   "row": -1,
                   "rowspan": 1
@@ -509,7 +504,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "fan",
                   "row": -1,
                   "rowspan": 1
@@ -517,7 +511,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "nozzle_temps",
                   "row": -1,
                   "rowspan": 2
@@ -525,7 +518,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "temp_stack",
                   "row": -1,
                   "rowspan": 1
@@ -533,7 +525,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "thermistor",
                   "row": -1,
                   "rowspan": 1
@@ -541,7 +532,6 @@
                 {
                   "col": -1,
                   "colspan": 2,
-                  "enabled": false,
                   "id": "temp_graph",
                   "row": -1,
                   "rowspan": 2
@@ -549,7 +539,6 @@
                 {
                   "col": -1,
                   "colspan": 3,
-                  "enabled": false,
                   "id": "preheat",
                   "row": -1,
                   "rowspan": 1
@@ -557,7 +546,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "active_spool",
                   "row": -1,
                   "rowspan": 1
@@ -565,7 +553,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "filament",
                   "row": -1,
                   "rowspan": 1
@@ -573,7 +560,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "humidity",
                   "row": -1,
                   "rowspan": 1
@@ -581,7 +567,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "width_sensor",
                   "row": -1,
                   "rowspan": 1
@@ -589,7 +574,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "favorite_macro",
                   "row": -1,
                   "rowspan": 1
@@ -597,7 +581,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "macros",
                   "row": -1,
                   "rowspan": 1
@@ -605,7 +588,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "motion",
                   "row": -1,
                   "rowspan": 1
@@ -613,7 +595,6 @@
                 {
                   "col": -1,
                   "colspan": 2,
-                  "enabled": false,
                   "id": "clock",
                   "row": -1,
                   "rowspan": 1
@@ -621,7 +602,6 @@
                 {
                   "col": -1,
                   "colspan": 2,
-                  "enabled": false,
                   "id": "job_queue",
                   "row": -1,
                   "rowspan": 2
@@ -629,7 +609,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "clog_detection",
                   "row": -1,
                   "rowspan": 1
@@ -637,7 +616,6 @@
                 {
                   "col": -1,
                   "colspan": 2,
-                  "enabled": false,
                   "id": "print_stats",
                   "row": -1,
                   "rowspan": 2
@@ -645,7 +623,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "gcode_console",
                   "row": -1,
                   "rowspan": 1
@@ -653,7 +630,6 @@
                 {
                   "col": -1,
                   "colspan": 2,
-                  "enabled": false,
                   "id": "camera",
                   "row": -1,
                   "rowspan": 2
@@ -708,13 +684,7 @@
     "completed": true,
     "last_seen_version": 1
   },
-  "ui": {
-    "cached_grid": {
-      "home": {
-        "rows": 4
-      }
-    }
-  },
+  "ui": {},
   "update": {
     "dismissed_version": "1.0.7"
   },
