@@ -92,16 +92,6 @@
       },
       {
         "phases": {
-          "HOMING": 63,
-          "QGL": 308
-        },
-        "temp_bucket": 1,
-        "timestamp": 1792857275,
-        "total": 422,
-        "window": 1
-      },
-      {
-        "phases": {
           "HOMING": 72,
           "QGL": 219
         },
@@ -203,14 +193,26 @@
         "timestamp": 1795773958,
         "total": 326,
         "window": 1
+      },
+      {
+        "heating": 268,
+        "phases": {
+          "BED_MESH": 49,
+          "HOMING": 12,
+          "QGL": 156
+        },
+        "temp_bucket": 1,
+        "timestamp": 1795790609,
+        "total": 343,
+        "window": 1
       }
     ]
   },
   "printers": {
     "default": {
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"BS+V4+twisted+wand+new+1.15_PA-CF_1h8m.gcode\",\"job_id\":\"000241\",\"object_height\":132.8,\"start_time\":1795773632.333453}",
-        "outlines": "{\"filename\":\"BS+V4+twisted+wand+new+1.15_PA-CF_1h8m.gcode\",\"objects\":[[[164.9,174.9],[166.5,169.7],[167.4,168.6],[168.5,167.5],[171.9,165.3],[177.4,165.2],[178.7,165.7],[180.1,166.4],[183.2,169.0],[185.0,174.1],[185.1,174.9],[184.6,177.4],[183.2,180.9],[178.9,184.2],[177.2,184.6],[175.4,184.8],[171.9,184.5],[167.4,181.4],[166.6,180.3],[166.0,178.9],[164.9,174.9]]]}"
+        "last_occupied": "{\"filename\":\"Koenigsegg+42323+Wall+Mount_PLA_55m18s.gcode\",\"job_id\":\"000242\",\"object_height\":30.0,\"start_time\":1795790266.5112872}",
+        "outlines": "{\"filename\":\"Koenigsegg+42323+Wall+Mount_PLA_55m18s.gcode\",\"objects\":[[[147.5,161.5],[147.8,160.8],[148.5,160.5],[201.8,160.5],[202.3,160.9],[202.5,161.5],[202.5,173.8],[202.2,174.2],[183.8,189.5],[153.2,189.5],[152.8,189.2],[152.5,188.8],[147.5,173.8],[147.5,161.5]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -414,20 +416,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 1.6658333333334996
+            "used_h": 2.584722222222532
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 1.6658333333334996
+            "used_h": 2.584722222222532
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 1.6658333333334996
+            "used_h": 2.584722222222532
           }
         },
-        "total_h": 1.6658333333334996
+        "total_h": 2.584722222222532
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -544,10 +546,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.954384982585907
+        "heat_rate": 0.924447238445282
       },
       "heater_bed": {
-        "heat_rate": 1.9891384840011597
+        "heat_rate": 1.7679378986358643
       }
     }
   },
