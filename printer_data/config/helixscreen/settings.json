@@ -9,7 +9,7 @@
     "drm_device": "",
     "gcode_3d_rate": {
       "board": "unknown/4c/100bm/800x480/32bpp",
-      "rate": 25199.04296875,
+      "rate": 20001.85546875,
       "version": "1.1.1 (334379d)"
     },
     "gcode_render_mode": 0,
